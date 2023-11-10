@@ -16,6 +16,32 @@ body{
 
 }
 
+.input{
+    padding: 18px;
+    margin-bottom: 25px;
+}
+
+.input input{
+    display: block;
+    font-size: 25px;
+    border: none;
+    padding: 14px 10px;
+    outline: none;
+    color: black;
+    background: none;
+    text-align: center;
+    border-bottom: 5px solid black;
+}
+
+.input input:focus{
+
+
+}
+
+.input input::placeholder{
+    color: rgba(0,0,0,0.8);
+  }
+
 .container{
     text-align: center;
     display: grid;
